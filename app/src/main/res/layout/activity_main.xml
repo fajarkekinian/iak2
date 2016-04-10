@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iak.session2.MainActivity">
+
+    <TextView
+        android:text="Halaman Awal"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/awal"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:text="Form 2"
+        android:gravity="center"
+        android:id="@+id/klik"/>
+</LinearLayout>
